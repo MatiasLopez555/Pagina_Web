@@ -1,0 +1,343 @@
+body {
+    background: #444;
+    background-repeat: no-repeat;
+    font-family: 'Times New Roman';
+    color: cornsilk; }
+/*     
+header{background-color: color:rgb(97, 27, 161); width: 1200px;} */
+header{background-color: rgba(8, 70, 78, 0.753); width: 1200px; height: 50px; text-align: center ;}
+header h1{
+    font-size: 40px;
+    text-align: center;
+}
+nav ul li { 
+    float: left; 
+    list-style:none; 
+    padding: 10px;}
+nav a{
+    font-size: 21px;
+    text-align: left;
+}
+a{text-decoration: none; font-family: fantasy;}
+nav ul li:hover a{color: black}
+
+footer { background-color: rgba(8, 70, 78, 0.753); 
+width: 1200px; 
+clear: both;
+color: cornsilk;
+float: left;
+text-align: center;
+border-radius: 20px;
+overflow: hidden;}
+
+
+
+div#general { 
+    margin: auto;
+    margin-top:00px;
+    width: 1200px;
+     height: 1200px;
+      /* background-color: rgb(25, 128, 197); */
+  background:url(Fondo.jpg);
+
+}
+
+div#contenido { 
+    margin-left: 5px;
+    width: 828px;
+    height: 450px;
+    background:url(fondo2\(1\).jpg) ; 
+}
+div#contenido2 { 
+    margin-top: 100px;
+    margin-left: 5px;
+    width: 828px;
+    height: 450px;
+    background:url(fondo2\(1\).jpg) ; 
+}
+/* __________________________Mynor_________________________________________________________- */
+
+.contenedor {
+
+    width: 100%;
+    display: inline-flex;
+  margin-left: 80px;
+  margin-top: 30px;
+  /*border-radius: 20px;*/
+  /*overflow: hidden;}*/
+  
+    /*height: 100vh;*/
+}
+.contenedor figure {
+position: relative;
+height:330px;
+width: 415px;
+overflow: hidden;
+
+
+}
+.contenedor figure img {
+width: 264px;
+height:  330px;
+transition: all 500ms ease-out;
+
+}
+.contenedor figure .capa {
+
+    position: absolute;
+    top: 0;
+    width: 264px;
+    height:  330px;
+    background-color: rgba(0, 103,123,0.5);
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+
+}
+.contenedor figure:hover > .capa {
+    opacity: 1;
+    visibility: visible;
+}
+.contenedor figure:hover > .capa h3 {
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.contenedor figure .capa h3{
+color: #ffffff;
+font-weight: 400;
+margin-bottom: 120px;
+transition: all 500ms ease-out;
+margin-top: 30px; 
+
+}
+.contenedor figure .capa p{
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px; 
+    
+    }
+/* ______________________________Vivas_______________________________________________ */
+.contenedor2 {
+
+    width: 100%;
+    display: inline-flex;
+float: right;
+
+  margin-top: 10px;
+    /* height: 100vh; */
+
+}
+.contenedor2 figure {
+/* position: relative; */
+height:330px;
+width: 264px;
+overflow: hidden;
+
+
+
+}
+.contenedor2 figure img {
+width: 264px;
+height:  330px;
+transition: all 500ms ease-out;
+
+}
+.contenedor2 figure .capa2 {
+
+    position: absolute;
+    top: 0;
+    width: 264px;
+    height:  330px;
+    background-color: rgba(0, 103,123,0.5);
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+
+}
+.contenedor2 figure:hover > .capa2 {
+    opacity: 1;
+    visibility: visible;
+}
+.contenedor2 figure:hover > .capa2 h3 {
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.contenedor2 figure .capa2 h3{
+color: #ffffff;
+font-weight: 400;
+margin-bottom: 120px;
+transition: all 500ms ease-out;
+margin-top: 30px;
+
+}
+.contenedor2 figure .capa2 p{
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px; 
+    
+    }
+
+/* __________________________Lesly_________________________________________________________- */
+
+.contenedor3 {
+    width: 100%;
+    display: inline-flex;
+  margin-left: 80px;
+  margin-top: 30px;
+ 
+    height: 100vh;
+    
+   /* width: 100%;
+    display: inline-flex;
+  margin-left: 30px;
+float: left;
+  margin-top: 50px;
+    height: 100vh;*/
+}
+.contenedor3 figure {
+
+    position: relative;
+    height:330px;
+    width: 415px;
+    overflow: hidden;
+
+/* position: relative;
+height:280px;
+width: 330px;
+overflow: hidden;*/
+
+
+
+}
+.contenedor3 figure img {
+width: 264px;
+height:  330px;
+transition: all 500ms ease-out;
+
+}
+.contenedor3 figure .capa3 {
+
+    position: absolute;
+    top: 0;
+    width: 264px;
+    height:  330px;
+    background-color: rgba(0, 103,123,0.5);
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+
+}
+.contenedor3 figure:hover > .capa3 {
+    opacity: 1;
+    visibility: visible;
+}
+.contenedor3 figure:hover > .capa3 h3 {
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.contenedor3 figure .capa3 h3{
+color: #ffffff;
+font-weight: 400;
+margin-bottom: 120px;
+transition: all 500ms ease-out;
+margin-top: 30px;
+
+}
+.contenedor3 figure .capa3 p{
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px; 
+    
+    }
+
+/* ______________________________Matias_______________________________________________ */
+.contenedor4 {
+    width: 100%;
+    display: inline-flex;
+ /* margin-right: 30px;*/
+float: right;
+  margin-top: 10px;
+    /*height: 100vh;*/
+}
+.contenedor4 figure {
+/*position: relative;*/
+height:330px;
+width: 264px;
+overflow: hidden;
+
+
+
+}
+.contenedor4 figure img {
+width: 264px;
+height:  330px;
+transition: all 500ms ease-out;
+
+}
+.contenedor4 figure .capa4 {
+
+    position: absolute;
+    top: 0;
+    width: 280px;
+    height:  330px;
+    background-color: rgba(0, 103,123,0.5);
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+
+}
+.contenedor4 figure:hover > .capa4 {
+    opacity: 1;
+    visibility: visible;
+}
+.contenedor4 figure:hover > .capa4 h3 {
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.contenedor4 figure .capa4 h3{
+color: #ffffff;
+font-weight: 400;
+margin-bottom: 120px;
+transition: all 500ms ease-out;
+margin-top: 30px;
+
+}
+.contenedor4 figure .capa4 p{
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px; 
+    
+    }
+/*--------------------descripcion----------------------------------*/
+
+div#descripcion {
+    font-family: cursive;
+    font-size: 22px;
+    text-align: center;
+    color: #273c52;
+    
+    margin-top: 0px;
+    float: right;
+    width: 360px;
+    height:1000px;
+    background-color: #31bca2;
+    
+}
+
+
+
+
+
+/* .foto1 { padding: 5px; margin: 5px; border: 2px solid black; float: left;margin-top: 50px; margin-left: 25px; width: 275px; height: 300px;} */
+/* .foto2 { padding: 5px; margin: 5px; border: 2px solid black; float: right;margin-top: 50px; margin-right: 25px; width: 275px;height: 300px;} */
+/* .foto3 { padding: 10px; margin: 10px; border: 2px solid black; float: left;margin-top: 50px; margin-left: 45px; width: 280px; height: 300px;}
+.foto4 { padding: 10px; margin: 10px; border: 2px solid black; float: right;margin-top: 50px; margin-right: 45px; width: 280px;height: 300px;}
+ */
